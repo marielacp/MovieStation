@@ -4,13 +4,10 @@
     padding: 0;
   }
 
-img {
+body {
+    background-image: url(../assets/img/terror.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
     background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
-    height: 100vh;
-    width: 100%;
-    /*filter: opacity(0.5);
-    opacity: 0.8;*/
   }
