@@ -46,7 +46,6 @@
 
 }
 
-
 .sign-out{
   color:white;
   
@@ -55,10 +54,18 @@
   color: #01d277;
  
 }
+/*Btn Register*/
 
-.derecha{
-text-align: right;
+.btn-register {
+  background: #01d277;
+  border: none;
 }
+
+.btn-register:hover {
+  background: #f7420b;
+}
+
+/*Seccion body*/
 
 .video{
    width:560px;
@@ -72,16 +79,8 @@ text-align: right;
 }
 
 
-/*Btn Register*/
-.btn-register {
-  background: #01d277;
-  border:none;
-}
 
-.btn-register:hover {
-  background: #f7420b;
-}
-/*fOOTER**/
+/*FOOTER**/
 .color-fondo {
   background-color: #081c24;
 }
