@@ -16,23 +16,23 @@ body {
 
 h1 {
 	font-family: 'Baloo Tammudu', cursive;
-	color: #cc0000;
+	color: #01d277;
 	padding-top: 5em;
 }
 
 .button{
-	color: #ae0c00;
+	color: #01d277;
 	background-color: transparent;
 }
 
 .button:hover {
  color: #f2f3f4;
- background-color: #ae0c00;
+ background-color: #01d277;
  border: none;
 }
 
 .button:active{
-	color: #ae0c00;
+	color: #01d277;
 	background-color: transparent;
 }
 
