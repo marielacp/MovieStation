@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container-img{
+background-image: url('../assets/img/fondo1.png');
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+background-position:center;
+margin-bottom: 0;
+}
+
+/*.container-img{
+  width: 70%;
+  height: 100px;
+ 
+  }*/
+
+.rueda{
+    width: 20%;
+    margin: 3rem;
+}
+
+
+/*
+Animación Rueda
+*/
+
+.rueda {
+    animation-name: rueda;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rueda;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: linear;
+    /* Chrome, Safari, Opera */
+  /*  display: block;*/
+    margin: 0 auto;
+    height: 150px;
+    width: 165px;
+    position: absolute;
+    left:7%;
+    top:53%;
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes rueda {
+    100% {
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rueda {
+    100% {
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+    }
+}
+/*rueda1**/
+.rueda1 {
+  width: 20%;
+  margin: 3rem;
+}
+
+
+/*
+Animación Rueda
+*/
+
+.rueda1 {
+  animation-name: rueda1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rueda1;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-timing-function: linear;
+  /* Chrome, Safari, Opera */
+  /*  display: block;*/
+  margin: 0 auto;
+  height: 150px;
+  width: 165px;
+  position: absolute;
+  left: 2%;
+  top: 80%;
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes rueda1 {
+  100% {
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rueda1 {
+  100% {
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+  }
+}
