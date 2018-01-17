@@ -7,11 +7,11 @@ font-family: 'Baloo Tammudu', cursive;
 }
 
 body {
-	background-image: url(../assets/img/cine.jpg);
-	background-repeat: no-repeat;
+  background-image: url(../assets/img/cine.jpg);
+  background-repeat: no-repeat;
   background-position: center right;
-	background-attachment: fixed;
-	background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {

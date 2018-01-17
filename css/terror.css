@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+img {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
