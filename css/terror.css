@@ -11,3 +11,41 @@ body {
     background-position: center center;
     background-size: cover;
   }
+
+  /*BORDER START MOVIE*/
+.navbar-inverse .navbar-brand{ 
+  display: inline-block;
+  color: #cc0000;
+  font-size: 3rem;
+  margin: 1rem;  
+}
+
+.navbar-inverse .navbar-brand:hover { 
+  display: inline-block;
+  color: #cc0000;
+  font-size: 3rem;
+  margin: 1rem;  
+}
+
+/*opaciodad a letras*/
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>li>a {  
+ margin: .5rem;
+ border-radius: 7%;
+ padding: 1rem;
+ 
+}
+.navbar-inverse{
+ background-color: #f5f5dc;
+ opacity: 0.8;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+ border-bottom:1px solid #cc0000;
+ opacity: 0.4; 
+ margin: .5rem;
+ border-radius: 7%;
+ padding: 1rem;
+ font-size: 1.7rem;
+ 
