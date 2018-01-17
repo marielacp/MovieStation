@@ -46,7 +46,6 @@
 
 }
 
-
 .sign-out{
   color:white;
   
@@ -55,21 +54,19 @@
   color: #01d277;
  
 }
+/*Btn Register*/
 
-.derecha{
-text-align: right;
+.btn-register {
+  background: #01d277;
+  border: none;
 }
-/*
-@media (max-width: 992px) {
- 
-  .opaque-navbar {
-    background-color:#081c24;
-    height: 60px;
-    transition: background-color .5s ease 0s;
-  }
-}*/
 
-/*frames**/
+.btn-register:hover {
+  background: #f7420b;
+}
+
+/*Seccion body*/
+
 .video{
    width:560px;
     height:200px
@@ -81,7 +78,8 @@ text-align: right;
   margin-top: 5rem;
 }
 
-/*fOOTER**/
+/*FOOTER**/
 .color-fondo {
   background-color: #081c24;
 }
+
