@@ -4,91 +4,15 @@
   box-sizing: border-box;
 
 }
-/***********************************************************************
-*  OPAQUE NAVBAR SECTION
-***********************************************************************/
-/*.navbar-default .navbar-nav>li>a{
-font-size: 2rem;;
-list-style: none;
-color:#0a0101;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover { 
-  font-size: 3vw;
-
-}
-
-.navbar, .navbar-default{
-width: 100%;
-padding: 0;
-margin-top:1%;
-position: fixed;
-z-index: 1000;
-background: transparent;
-}
-.opaque-navbar {
-  background-color: rgba(0, 0, 0, 0,0.5);
-  Transparent:rgba(0,0,0,0);
-  Translucent: rgba(0,0,0,0.5);   
-  border-bottom: 0px;
-  transition: background-color .5s ease 0s;
-  }
- 
-.user{
-  width: 12%;
-  border-radius: 180%;
-  margin-top:-1rem;
-}
-
-.opaque-navbar.opaque {
- background-color: black;
- height: 60px;
- transition: background-color .5s ease 0s;
-}
-
-ul.dropdown-menu {
-  background-color: #070606;
-}
-
-/***********************************************************************
-slider css
-***********************************************************************/
-*/
-
-/***********************************************************************
-*  OPAQUE NAVBAR SECTION
-***********************************************************************/
-
-/*.opaque-navbar {
-  background-color: rgba(8, 28, 36,0.7);
-  Transparent = rgba(0,0,0,0)
-   Translucent = (0,0,0,0.5) 
-  height: 60px;
-  border-bottom: 0px;
-  transition: background-color .5s ease 0s;
-}*/
-
-
-.opaque-navbar.opaque {
-  background-color: #081c24;
-  height: 60px;
-  transition: background-color .5s ease 0s;
-}
-
-ul.dropdown-menu {
-  background-color: #081c24;
-
-}
-
-
-
+/*******************************************
+****************menu NAVBAR*****************
+********************************************/
 /*BORDER START MOVIE*/
 .navbar-inverse .navbar-brand{ 
    display: inline-block;
    color: #01d277;
    font-size: 3rem;
-   margin: 1rem;
-     background-color: #081c24;
+   margin: 1rem;  
  
 }
  /*opaciodad a letras*/
@@ -97,7 +21,11 @@ ul.dropdown-menu {
   margin: .5rem;
   border-radius: 7%;
   padding: 1rem;
-        opacity: 0.4;
+  
+}
+.navbar-inverse{
+  background-color: #081c24;
+
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -127,6 +55,10 @@ ul.dropdown-menu {
   color: #01d277;
  
 }
+
+.derecha{
+text-align: right;
+}
 /*
 @media (max-width: 992px) {
  
@@ -147,4 +79,9 @@ ul.dropdown-menu {
 }
 .space1 {
   margin-top: 5rem;
+}
+
+/*fOOTER**/
+.color-fondo {
+  background-color: #081c24;
 }
