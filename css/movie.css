@@ -57,9 +57,19 @@
 }
 
 .btn-register:hover {
-  background: #f7420b;
+  background: #92081d;
+  color: white;
+}
+/*btn1 agregar a mi lista*/
+.btn1-register {
+  background: #01d277;
+  border: none;
 }
 
+.btn1-register:hover {
+  background: #081c24;
+  color: white;
+}
 /*Seccion body*/
 
 .video{
@@ -140,7 +150,6 @@ footer ---slider css
   display: flex;
   flex-direction: row;
   justify-content:center;
-  margin-top: -20%;
   color: white;
 
 }
@@ -218,7 +227,7 @@ margin: .2rem;
   padding: .5rem;
  }
  .color-fondo {
-   height: 73vh;
+   height: 20vh;
  }
 .container-footer-date {   
  line-height: 1.2rem;
@@ -229,6 +238,10 @@ margin: .2rem;
  height: auto;
  width: 100%;
 }
+
+.dateImg {
+  margin-top:4rem;
+}
 }
 
  @media only screen 
@@ -237,10 +250,10 @@ margin: .2rem;
    .txt-sm-nav{
      font-size: 2rem;
    }
-      .nav-logo {
-        margin-top: -7rem;
-        width: 45%;
-        padding: .5rem;
+  .nav-logo {
+    margin-top: -7rem;
+    width: 45%;
+    padding: .5rem;
       }
    /*body*/
    .txt-sm-body{
