@@ -10,7 +10,7 @@
 /*BORDER START MOVIE*/
 .navbar-inverse .navbar-brand{ 
    display: inline-block;
-   color: #01d277;
+   color: #01d277
    font-size: 3rem;
    margin: 1rem;  
  
@@ -37,13 +37,13 @@
   font-size: 1.7rem;
   
 }
+
 .user {
   width: 5%;
   border-radius: 180%; 
   padding: 1rem;
   margin: 1rem;
   border: #01d277 1px solid;
-
 }
 
 .link {
