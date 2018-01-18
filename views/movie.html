@@ -5,12 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home</title>
+	<title>Movie</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">  
-    <link rel="stylesheet" href="../css/home.css">
-   
+  <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" href="../css/movie.css">
+  
 </head>
 <body>
                            
@@ -19,25 +20,26 @@
 <div class="container-fluid">
   <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
   <div class="container">
-    <div class="text-right">
+    <div class="text-right txt-sm-nav">
       <button type="submit" class="btn btn-primary btn-register">Register Now</button>
       <img src="../assets/img/user.png " class="user" alt="">
-      <a class="sign-out">Sign In</a>
-      
+      <a class="sign-out">Sign In</a>      
     </div>
     
     <div class="navbar-header ">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain" class="">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain" >
       <span class="glyphicon glyphicon-chevron-right"></span>        
       </button>
-      <a class="navbar-brand" href="#" class="title-nav">STATION MOVIE</a>
+      <img class="img-reponsive nav-logo" src="../assets/img/logo4.png" alt="">
+     <!-- <a class="navbar-brand" href="#" class="title-nav">STATION MOVIE</a>-->
     </div>
     <div class="collapse navbar-collapse " id="navMain" >
-      <ul class="nav navbar-nav pull-right">
+      <ul class="nav navbar-nav pull-right txt-sm-nav">
         <li class="active" title="Home"><a href="#">Home</a></li>
         <li><a href="#" title="Premier">Premier</a></li>
         <li><a href="#" title="Generos">Genre</a></li> 
         <li><a href="#" title="ContactUs">Contact Us</a></li> 
+         <li><a href="#" title="ContactUs">Foro</a></li> 
       </ul>
     </div>
   </div>
@@ -48,21 +50,9 @@
 <section class="space">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-      <form class="form-inline">
-        <div class="form-group">         
-          <select id="" class="form-control">
-            <option>Busca peliculas por nombre, actor, año, genero</option>
-            <option>Genero</option>
-            <option>Año</option>
-            <option>Nombre Pelicula</option>
-            <option>Actor</option>
-          </select>
-        </div>
-        <div class="form-group">
-         <input type="text" class="form-control" id="" placeholder="Buscar">
-        </div>
-        <button type="submit" class="btn btn-default">Buscar</button>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <form class="form-inline text-center">    
+        <button type="submit" class="btn btn-default btn1-register  txt-sm-body "> add to my favorites list</button>
       </form>
       </div>
     </div>
@@ -72,74 +62,37 @@
 <!--Lista de peliculas-->
 <section class="container space1">
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="video-space">
+      <div class="container-video" >
         <iframe class="img-responsive video" src="https://www.youtube.com/embed/XF2cUhfxhs4" frameborder="0" allow=""
           allowfullscreen></iframe>
       </div>
-      <div>
-        <h3>Deapool</h3> <hr>
-      <p>Deadpool (película) Deadpool es una película de superhéroes estadounidense basada en el personaje de Marvel Comics del mismo
-      nombre y dirigida por Tim Miller. ... Sin embargo, en marzo de 2005, New Line Cinema puso la película en cambio y 20th Century
-      Fox se interesó</p>
-      <ul>
-        <li><a href=""></a> Pais: EEUU</li>
-        <li><a href=""></a> Genero: Comedio</li>
-        <li><a href=""></a> Estreno : Abril 2018</li> 
-        <li><a href=""></a> Puntuacion</li>
-      </ul>
-      </div>
     </div>
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <div class="">
-        <iframe class="img-responsive video" src="https://www.youtube.com/embed/D_hxHlORX1I" frameborder="0" allow=""
-          allowfullscreen></iframe>
-        </div>
-        <div>
-        <h3>Los minions3</h3> <hr>
-        <p>Minions (en español: Los Minions) es una película de animación.​ Es producida por Illumination Entertainment como un spin-off
-        de las películas Mi Villano Favorito y Mi Villano Favorito 2 basado en los minions (aunque también se considera una precuela
-        de las historias anteriores).</p>
-        <ul>
-          <li><a href=""></a> Pais: EEUU</li>
-          <li><a href=""></a> Genero: Anime</li>
-          <li><a href=""></a> Estreno : Abril 2016</li>
-          <li><a href=""></a> Puntuacion</li>
-        </ul>
-        </div>      
     </div>
-  </div>
+    </div>
 </section>
-<!--footer-->
-<footer class="container-fluid color-fondo" >
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="slider">
-        <ul>
-          <li><img class="img-responsive" src="../assets/img/footer.jpg" alt=""></li>
-           <li><img class="img-responsive" src="../assets/img/footer11.jpg" alt=""></li>
-           <li><img class="img-responsive" src="../assets/img/footer3.jpg" alt=""></li>
-        </ul>
-      </div>
-    </div>    
-  </div>
-</div>
+<footer class=" color-fondo" >
+  <!--silider-->
+
 <!--iconos redes sociales-->
-   <div class="container ">
+   <div class="container-fluid">
       <div class="row center-block ">
-      <div class="col-xs-12 col-sm-12 dateImg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 dateImg">
+        <div>
         <span class="btn-f"><a href=""> <i class="fa fa-facebook" aria-hidden="true"> </i></a></span>
         <span class="btn-f"> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span>  
         <span class="btn-f"> <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
         <span class="btn-f"> <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a></span>
         <span class="btn-f"> <a href=""><i class="fa fa-play" aria-hidden="true"></i></a></span>
-               
-      </div>      
-    </div>    
-  </div>
- 
-  </div>
+        </div>
+          <div class="container-footer-date" >
+            <p class="text-center"> informesstationmovie@stationmovie.com</p>
+            <hr>
+            </div>    
+          </div>      
+        </div>    
+      </div>
 </footer>
 <!-- Js de bootstrap-->
 <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
