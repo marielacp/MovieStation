@@ -2,30 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Righteous', cursive;
 
 }
 /*******************************************
 ****************menu NAVBAR*****************
 ********************************************/
 /*BORDER START MOVIE*/
-.navbar-inverse .navbar-brand{ 
-   display: inline-block;
-   color: #01d277;
-   font-size: 3rem;
-   margin: 1rem;  
- 
+.letter-nav{
+  font-size: 2rem;
 }
  /*opaciodad a letras*/
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>li>a {  
   margin: .5rem;
   border-radius: 7%;
-  padding: 1rem;
-  
+  padding: 1rem;  
 }
 .navbar-inverse{
   background-color: #081c24;
-
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -34,7 +29,7 @@
   margin: .5rem;
   border-radius: 7%;
   padding: 1rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
   
 }
 .user {
@@ -68,11 +63,12 @@
 /*Seccion body*/
 
 .video{
-   width:560px;
-    height:200px
+   width: 100%;
+   height: 70vh;
+   padding:2rem;
 }
 .space{
-  margin-top:17rem;
+  margin-top:18rem;
 }
 .space1 {
   margin-top: 3rem;
@@ -83,15 +79,15 @@
   width: 50%;
   padding: .5rem;
 }
-/*FOOTER**/
-.color-fondo {
-  background-color: #081c24;
+.space-movie{
+  padding: 0rem 2rem 0rem 2rem;
 }
-
 /***********************************************************************
 footer ---slider css
 ***********************************************************************/
-
+.color-fondo {
+  background-color: #081c24;
+}
 .col-xs-12{
   margin: 0;
   padding: 0;
