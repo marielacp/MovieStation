@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: 'Righteous', cursive;
   }
 
   /*BORDER START MOVIE*/
@@ -110,17 +111,59 @@
     border-radius: 7%;
     padding: 1rem;
     font-size: 4rem;
-    }
+		}
+		
+	/* TÍTULO: Nombre - Foto */
 
  .user-name {
 	 display:inline-block;
-	 margin-top: 15em;
+	 margin-top: 5em;
+	 font-size: 28px;
 }
 
  .user {
-  width: 4.5em;
+  width: 3.5em;
   border-radius: 100%; 
 	padding: 0.8em;
-	margin: 0.8em;
+	margin-top: 9.3em;
 	border: 1px solid #01d277;
+	}
+
+	/*BOTON - Recomendación*/
+
+.button {
+ color: #f2f3f4;
+ background-color: #01d277;
+ border: none;
+}
+
+.button:hover{
+	color: #01d277;
+	background-color: transparent;
+	border: 2px solid #01d277;
+}
+
+.button:active {
+	color: #f2f3f4;
+	background-color: #01d277;
+	border: none;
+}
+
+.white {
+	text-decoration: none;
+	color:white;
+}
+
+.white:active{
+	text-decoration: none;
+	color:white;
+}
+
+/* Div container fotos*/
+
+.border-container{
+	background-color: transparent;
+	border: 5px dotted #01d277;
+  padding: 3em;
+  margin-bottom: 2em;
 }

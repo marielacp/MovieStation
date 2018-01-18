@@ -13,8 +13,8 @@
    color: #01d277
    font-size: 3rem;
    margin: 1rem;  
+ }
  
-}
  /*opaciodad a letras*/
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>li>a {  
