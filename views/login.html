@@ -13,15 +13,65 @@
 </head>
 
 <body>
-    <div class="container-fluid background">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1 container-button">
+                <a href="../views/home.html" class="glyphicon glyphicon-menu-left arrow" aria-hidden="true"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container background">
         <div class="row">
             <div class="col-xs-12 col-lg-12 container-img">
                 <h1 class="text-center">Movie Station</h1>
             </div>
+            <!-- Section form -->
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-lg-4 col-sm-offset-4 col-lg-offset-4">
+                            <form class="space">
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail ">Name</label>
+                                    <input id="name" type="text" class="form-control transparent focus-color" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail">Email address</label>
+                                    <input id="email" type="text" class="form-control focus-color transparent" name="email" placeholder="EmailName@mail.com">
+                                </div>
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail">Password</label>
+                                    <input id="inputPassword" type="password" class="form-control transparent focus-color" placeholder="password">
+                                </div>
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail">Confirm Password </label>
+                                    <input id="inputPasswordAgain" type="password" class="form-control transparent focus-color" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group color-text">
+                                    <label for="inputEmail">Gender</label>
+                                    <select id="sel1" class="form-control transparent-gender text-color focus-color">
+                                        <option class="color">Select your gender...</option>
+                                        <option value="1" class="color">Female</option>
+                                        <option value="2" class="color">Male</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <br>
+                            <div class="checkbox container-checkbox text-center" data-toggle="modal" data-target="#myModal">
+                                <label class="label-checkbox">
+                                    <input id="checkbox" class="input-checkbox focus-color grey" type="checkbox" value=""> I agree to Movie Station´s
+                                    <a class="link-color" href="#">Terms of Service</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <br>
+            <!-- Btn -->
             <div class="col-xs-12 col-lg-12 text-center">
-                <div class="col-xs-6 col-lg-6" data-toggle="modal" data-target="#myModal">
-                    <a id="log-in" class="btn btn-default button" href="#" role="button">LOG IN</a>
+                <div class="col-xs-6 col-lg-6">
+                    <a id="log-in" class="btn btn-default button" href="#" role="button">REGISTER</a>
                 </div>
                 <div class="col-xs-6 col-lg-6">
                     <a id="sign-up" class="btn btn-default button" href="#" role="button">SIGN UP WITH G+</a>
@@ -29,47 +79,6 @@
             </div>
         </div>
     </div>
-    <!--modal-->
-    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title">Email Registration</h4>
-                </div>
-                <div class="modal-body">
-                    <p class="text-center">Please, enter your e-mail and password below:</p>
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Check me out
-                            </label>
-                        </div>
-                        <!--<button type="submit" class="btn btn-default">Submit</button>-->
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">
-                        <a class="white" href="../views/home.html"> Log in </a>
-                    </button>
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

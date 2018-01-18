@@ -1,9 +1,8 @@
 *{
   box-sizing: border-box;
   margin: 0;
-	padding: 0;
-	filter:alpha(opacity=60);
-font-family: 'Baloo Tammudu', cursive;
+  padding: 0;
+  font-family: 'Baloo Tammudu', cursive;
 }
 
 body {
@@ -14,15 +13,61 @@ body {
   background-size: cover;
 }
 
+.arrow {
+	margin: 1em;
+	color: #01d277;
+	font-weight: 900;
+	font-size: 1.8em;
+	border-radius: 100%;
+	border: white;
+}
+
+/*título*/
 h1 {
 	font-family: 'Baloo Tammudu', cursive;
 	color: #01d277;
-	padding-top: 5em;
 }
 
+/*form*/
+
+form {
+	border: 3px solid #01d277;
+	border-radius: 5px;
+	padding: 2em 3em;
+}
+
+.focus-color {
+  border-color: rgb(1,210, 119);
+}
+
+.color-text {
+  color: #01d277;
+}
+
+.link-color {
+ color:white;
+}
+
+.link-color:hover {
+	color:white;
+ }
+
+ .grey {
+  color:#a9ba9d;
+ }
+
+ /*.transparent {
+	background: transparent;
+	color: white;
+ }*/
+
+
+/*Estilo de boton*/
 .button{
 	color: #01d277;
 	background-color: transparent;
+	padding: 1em;
+	margin-bottom: 3em;
 }
 
 .button:hover {
@@ -31,9 +76,10 @@ h1 {
  border: none;
 }
 
-.button:active{
-	color: #01d277;
-	background-color: transparent;
+.button:active {
+	color: #f2f3f4;
+	background-color: #01d277;
+	border: none;
 }
 
 .white {
@@ -45,3 +91,5 @@ h1 {
 	text-decoration: none;
 	color:white;
 }
+
+
