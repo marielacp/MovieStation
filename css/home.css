@@ -84,7 +84,7 @@
 }
 
 /***********************************************************************
-slider css
+footer ---slider css
 ***********************************************************************/
 
 .col-xs-12{
@@ -180,3 +180,78 @@ line-height: 3rem;
 .container-footer-date ul li a:hover {
   color: #01d277;
 }
+
+/*media query*/
+  @media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 767px) {
+ .navbar-inverse .navbar-brand {
+   font-size: 2rem;
+    }
+ /*body*/
+.video-space{
+  margin:2rem;
+}
+
+.space {
+  margin-top:12rem;
+}
+
+.space1 {
+  margin-top: 1rem;
+}
+
+/*footer*/
+.btn-f {
+  font-size: 1.2rem; 
+margin: .2rem;
+}
+
+.btn-f a {
+  padding: .5rem;
+ }
+ .color-fondo {
+   height: 73vh;
+ }
+.container-footer-date {   
+ line-height: 1.2rem;
+ position: absolute;
+ top:7rem;
+ padding: 0;
+ margin: 0;
+ height: auto;
+ width: 100%;
+}
+}
+
+ @media only screen 
+ and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+   .txt-sm-nav{
+     font-size: 2rem;
+   }
+   /*body*/
+   .txt-sm-body{
+      font-size: 2rem;
+   }
+   .video-space {
+     margin: 2rem;
+   }
+  
+   /*footer*/
+     
+   .color-fondo {
+     height: 38vh;
+   }
+   .container-footer-date {
+     line-height: 1.2rem;
+     position: absolute;
+     top: 15rem;
+     padding: 0;
+     margin: 0;
+     height: auto;
+     width: 100%;
+     font-size:2rem;
+     
+   }
+ }
