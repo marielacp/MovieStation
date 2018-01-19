@@ -41,7 +41,7 @@ Al Inicializar este proyecto nos hemos inspirado en las siguientes páginas web:
 
 - The Movie Database:
 
-![MDB](assets/readme/4db.jpg)
+![MDB](assets/readme/db.jpg)
 
 ### Nombre del producto:
 
