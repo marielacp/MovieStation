@@ -50,14 +50,16 @@ $(document).ready(function() {
               var title = movie.Title;
               var genre = movie.Genre;
               var year = movie.Year;
-              var personalMovie = {
-                user: uid,
-                poster: poster,
-                title: title,
-                genre: genre,
-                year: year,
-              };
-              database.ref('personalMovie/' + user.uid).set(personalMovie);
+              var personalMovie =  
+                {
+                  user: uid,
+                  poster: poster,
+                  title: title,
+                  genre: genre,
+                  year: year,
+                }
+              ;
+              database.ref('personalMovie/' + user.uid).push(personalMovie);
             });
           })
           .catch((err) => {
