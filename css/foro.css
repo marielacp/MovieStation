@@ -1,0 +1,54 @@
+.vh100{
+  height: 100vh;
+}
+.foro-nav{
+  background-color: #081c24;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foro-nav a h3,p{
+  color:#01d277;
+}
+.fa-film{
+  color:#01d277;  
+}
+.foro{
+  background: rgb(233, 231, 231);
+}
+.foro .btn{
+  border:3px solid #01d277;
+  color: #01d277;
+  border-radius: 7%;
+  background: #081c24;;
+  font-size: 1.7rem;
+}
+.first{
+  height: 8%;
+  padding: 5px;
+}
+.container-coments{
+  height: 80%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.third{
+  height: 8%;
+}
+.message{
+  background: #ffff;
+  padding: 10px;
+  margin: 5px;
+  border-radius:3px;
+}
+.message p,span {
+  margin:0px;
+  color:#000;
+}
+.margin-text{
+  margin: 10px 0px;
+}
+.col-xs-3{
+  padding: 0px;
+  text-align: center;
+}

@@ -264,3 +264,33 @@ footer ---slider css
   
 }
 }
+.link {
+  text-decoration: none;
+  color:white;
+}
+.link:hover {
+  color:white;
+}
+.link:active{
+  background-color: #e25822;
+}
+.btn-register {
+  background: #01d277;
+  border: none;
+}
+.btn-register:hover {
+  background: #f7420b;
+  color: white;
+  }
+/*modal*/
+.circle {
+  border-radius: 50%;
+  background-color: #01d277;
+  color: white;
+  font-size: 2.3em;
+  font-weight: 900;
+  border: 5px solid #e6e6fa;
+  }
+  .change-color{
+  background-color: #01d277;
+  }
