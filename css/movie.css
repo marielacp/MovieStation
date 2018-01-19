@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Righteous', cursive;
+
+}
+/****************menu NAVBAR*****************
+********************************************/
+
+.letter-nav{
+  font-size: 2rem;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>li>a {  
+  margin: .5rem;
+  border-radius: 7%;
+  padding: 1rem;  
+}
+
+.navbar-inverse{
+  background-color: #081c24;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  border-bottom:1px solid #01d277;
+  opacity: 0.4; 
+  margin: .5rem;
+  border-radius: 7%;
+  padding: 1rem;
+  font-size: 2rem;
+  
+}
+.user {
+  width: 5%;
+  border-radius: 180%; 
+  padding: 1rem;
+  margin: 1rem;
+  border: #01d277 1px solid;
+
+}
+
+.sign-out{
+  color:white;
+  
+}
+.sign-out:hover{
+  color: #01d277;
+ 
+}
+/*Btn Register*/
+
+.btn-register {
+  background: #01d277;
+  border: none;
+}
+
+.btn-register:hover {
+  background: #92081d;
+  color: white;
+}
+
+/*btn1 agregar a mi lista*/
+.btn1-register {
+  background: #01d277;
+  border: none;
+}
+
+.btn1-register:hover {
+  background: #081c24;
+  color: white;
+}
+/*Seccion body*/
+
+.video{
+  width: 100%;
+  height: 70vh;
+  padding:2rem;
+  }
+.space{
+  margin-top:18rem;
+}
+.space1 {
+  margin-top: 3rem;
+}
+
+.nav-logo{
+  margin-top:-9rem;
+  width: 50%;
+  padding: .5rem;
+}
+.space-movie{
+  padding: 0rem 2rem 0rem 2rem;
+}
+/************************************************************
+footer ---slider css
+************************************************************/
+.color-fondo {
+  background-color: #081c24;
+}
+
+.col-xs-12{
+  margin: 0;
+  padding: 0;
+}
+
+.slider{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0; 
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: cambio 30s infinite;
+  animation-timing-function: ease-in;
+  margin:0;
+  padding: 0;
+}
+
+.slider li{
+  display: inline-block;
+  list-style: none;
+  width: 100%;  
+  font-size:3vw;
+  text-decoration: none;
+  padding: 0%;
+  margin: 0;
+}
+
+.slider img{   
+  padding: 0;
+  margin: 0; 
+}
+
+@keyframes cambio{
+  0% { margin-left: 0;}
+  20% { margin-left: 0;}
+  40%{ margin-left:-100%;}
+  60%{ margin-left:-100%;}
+  80% { margin-left: -200%} 
+  100% { margin-left: -200%}
+}
+
+.dateImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  color: white;
+}
+
+.btn-f{
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.btn-f a{
+  color: #081c24;
+  background: #eaf8f2;
+  padding: 1rem;
+  border-radius: 70%;
+}
+.btn-f a:hover {
+  color: #01d277;  
+}
+
+.position-footer{
+  display: inline-block;
+  position: absolute;
+  top:1%;
+}
+
+/**Date de Footer***/
+.container-footer-date{
+position: absolute;
+display: inline-block; 
+right:0rem;
+}
+
+.container-footer-date ul {
+  float: left;
+  margin-left: 4rem;
+  line-height: 3rem;
+}
+
+.container-footer-date ul li a:hover {
+  color: #01d277;
+}
+
+/*media query*/
+@media only screen 
+and (min-device-width: 350px) 
+and (max-device-width: 767px) {
+.navbar-inverse .navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-logo {
+  margin-top: -5rem;
+  width: 35%;
+  padding: .5rem;
+}
+
+/*body*/
+.video-space{
+  margin:2rem;
+}
+
+.space {
+  margin-top:12rem;
+}
+
+.space1 {
+  margin-top: 1rem;
+}
+
+/*footer*/
+.btn-f {
+  font-size: 1.2rem; 
+  margin: .2rem;
+}
+
+.btn-f a {
+  padding: .5rem;
+ }
+ .color-fondo {
+   height: 20vh;
+ }
+.container-footer-date {   
+  line-height: 1.2rem;
+  position: absolute;
+  top:7rem;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.dateImg {
+  margin-top:4rem;
+}
+}
+
+@media only screen 
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+.txt-sm-nav{
+  font-size: 2rem;
+}
+.nav-logo {
+  margin-top: -7rem;
+  width: 45%;
+  padding: .5rem;
+}
+/*body*/
+.txt-sm-body{
+  font-size: 2rem;
+}
+.video-space {
+  margin: 2rem;
+}
+  
+/*footer*/
+
+.color-fondo {
+  height: 38vh;
+}
+.container-footer-date {
+  line-height: 1.2rem;
+  position: absolute;
+  top: 15rem;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  font-size:2rem;
+
+}
+}
