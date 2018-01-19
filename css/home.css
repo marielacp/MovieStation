@@ -5,20 +5,19 @@
   font-family: 'Righteous', cursive;
 
 }
-/****************menu NAVBAR*****************
+/***************menu NAVBAR*****************
 ********************************************/
 
 .letter-nav{
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
-
+ 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>li>a {  
   margin: .5rem;
   border-radius: 7%;
   padding: 1rem;  
 }
-
 .navbar-inverse{
   background-color: #081c24;
 }
@@ -42,12 +41,11 @@
 }
 
 .sign-out{
-  color:white;
-  
+  color:white;  
 }
+
 .sign-out:hover{
-  color: #01d277;
- 
+  color: #01d277; 
 }
 /*Btn Register*/
 
@@ -57,27 +55,17 @@
 }
 
 .btn-register:hover {
-  background: #92081d;
-  color: white;
+  background: #f7420b;
 }
 
-/*btn1 agregar a mi lista*/
-.btn1-register {
-  background: #01d277;
-  border: none;
-}
-
-.btn1-register:hover {
-  background: #081c24;
-  color: white;
-}
-/*Seccion body*/
-
+/*********************************************************
+body
+**********************************************************/
 .video{
   width: 100%;
   height: 70vh;
   padding:2rem;
-  }
+}
 .space{
   margin-top:18rem;
 }
@@ -93,13 +81,12 @@
 .space-movie{
   padding: 0rem 2rem 0rem 2rem;
 }
-/************************************************************
+/*********************************************************
 footer ---slider css
-************************************************************/
+**********************************************************/
 .color-fondo {
   background-color: #081c24;
 }
-
 .col-xs-12{
   margin: 0;
   padding: 0;
@@ -150,14 +137,14 @@ footer ---slider css
   display: flex;
   flex-direction: row;
   justify-content:center;
+  margin-top: -20%;
   color: white;
-}
 
+}
 .btn-f{
   font-size: 2rem;
   margin: 0.5rem;
-}
-
+  }
 .btn-f a{
   color: #081c24;
   background: #eaf8f2;
@@ -165,20 +152,22 @@ footer ---slider css
   border-radius: 70%;
 }
 .btn-f a:hover {
-  color: #01d277;  
+  color: #01d277;
+  
 }
-
 .position-footer{
   display: inline-block;
   position: absolute;
   top:1%;
-}
+ 
 
+}
 /**Date de Footer***/
-.container-footer-date{
-position: absolute;
-display: inline-block; 
-right:0rem;
+  .container-footer-date{
+  position: absolute;
+  display: inline-block; 
+  right:0rem;
+
 }
 
 .container-footer-date ul {
@@ -186,17 +175,16 @@ right:0rem;
   margin-left: 4rem;
   line-height: 3rem;
 }
-
 .container-footer-date ul li a:hover {
   color: #01d277;
 }
 
 /*media query*/
 @media only screen 
-and (min-device-width: 350px) 
-and (max-device-width: 767px) {
-.navbar-inverse .navbar-brand {
-  font-size: 2rem;
+  and (min-device-width: 350px) 
+  and (max-device-width: 767px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 2rem;
 }
 
 .nav-logo {
@@ -204,8 +192,7 @@ and (max-device-width: 767px) {
   width: 35%;
   padding: .5rem;
 }
-
-/*body*/
+ /*body*/
 .video-space{
   margin:2rem;
 }
@@ -228,7 +215,7 @@ and (max-device-width: 767px) {
   padding: .5rem;
  }
  .color-fondo {
-   height: 20vh;
+   height: 73vh;
  }
 .container-footer-date {   
   line-height: 1.2rem;
@@ -239,15 +226,11 @@ and (max-device-width: 767px) {
   height: auto;
   width: 100%;
 }
-
-.dateImg {
-  margin-top:4rem;
-}
 }
 
-@media only screen 
-and (min-device-width: 768px)
-and (max-device-width: 1024px) {
+ @media only screen 
+ and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
 .txt-sm-nav{
   font-size: 2rem;
 }
@@ -256,16 +239,16 @@ and (max-device-width: 1024px) {
   width: 45%;
   padding: .5rem;
 }
-/*body*/
+   /*body*/
 .txt-sm-body{
   font-size: 2rem;
 }
 .video-space {
   margin: 2rem;
 }
-  
-/*footer*/
 
+/*footer*/
+  
 .color-fondo {
   height: 38vh;
 }
@@ -278,6 +261,6 @@ and (max-device-width: 1024px) {
   height: auto;
   width: 100%;
   font-size:2rem;
-
+  
 }
 }
