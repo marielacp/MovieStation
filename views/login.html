@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Station</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1 container-button">
+                <a href="../views/home.html" class="glyphicon glyphicon-menu-left arrow" aria-hidden="true"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container background">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12 container-img">
+                <h1 class="text-center">Movie Station</h1>
+            </div>
+            <!-- Section form -->
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-lg-4 col-sm-offset-4 col-lg-offset-4">
+                            <form class="space">
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail ">Name</label>
+                                    <input id="name" type="text" class="form-control transparent focus-color" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail">Email address</label>
+                                    <input id="email" type="text" class="form-control focus-color transparent" name="email" placeholder="EmailName@mail.com">
+                                </div>
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail">Password</label>
+                                    <input id="inputPassword" type="password" class="form-control transparent focus-color" placeholder="password">
+                                </div>
+                                <div class="form-group container-input color-text">
+                                    <label for="inputEmail">Confirm Password </label>
+                                    <input id="inputPasswordAgain" type="password" class="form-control transparent focus-color" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group color-text">
+                                    <label for="inputEmail">Gender</label>
+                                    <select id="sel1" class="form-control transparent-gender text-color focus-color">
+                                        <option class="color">Select your gender...</option>
+                                        <option value="1" class="color">Female</option>
+                                        <option value="2" class="color">Male</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <br>
+                            <div class="checkbox container-checkbox text-center" data-toggle="modal" data-target="#myModal">
+                                <label class="label-checkbox">
+                                    <input id="checkbox" class="input-checkbox focus-color grey" type="checkbox" value=""> I agree to Movie Station´s
+                                    <a class="link-color" href="#">Terms of Service</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <!-- Btn -->
+            <div class="col-xs-12 col-lg-12 text-center">
+                <div class="col-xs-6 col-lg-6">
+                    <a id="log-in" class="btn btn-default button" href="#" role="button">REGISTER</a>
+                </div>
+                <div class="col-xs-6 col-lg-6">
+                    <a id="sign-up" class="btn btn-default button" href="#" role="button">SIGN UP WITH G+</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

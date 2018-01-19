@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu', cursive;
+  }
+  
+  body {
+    background-image: url(../assets/img/cine.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .arrow {
+      margin: 1em;
+      color: #01d277;
+      font-weight: 900;
+      font-size: 1.8em;
+      border-radius: 100%;
+      border: white;
+  }
+  
+  /*título*/
+  h1 {
+      font-family: 'Baloo Tammudu', cursive;
+      color: #01d277;
+  }
+  
+  /*form*/
+  
+  form {
+      border: 3px solid #01d277;
+      border-radius: 5px;
+      padding: 2em 3em;
+  }
+  
+  .focus-color {
+    border-color: rgb(1,210, 119);
+  }
+  
+  .color-text {
+    color: #01d277;
+  }
+  
+  .link-color {
+   color:white;
+  }
+  
+  .link-color:hover {
+      color:white;
+   }
+  
+   .grey {
+    color:#a9ba9d;
+   }
+  
+   /*.transparent {
+      background: transparent;
+      color: white;
+   }*/
+  
+  
+  /*Estilo de boton*/
+  .button{
+      color: #01d277;
+      background-color: transparent;
+      padding: 1em;
+      margin-bottom: 3em;
+  }
+  
+  .button:hover {
+   color: #f2f3f4;
+   background-color: #01d277;
+   border: none;
+  }
+  
+  .button:active {
+      color: #f2f3f4;
+      background-color: #01d277;
+      border: none;
+  }
+  
+  .white {
+      text-decoration: none;
+      color:white;
+  }
+  
+  .white:active{
+      text-decoration: none;
+      color:white;
+  }
+  
+  
+  
