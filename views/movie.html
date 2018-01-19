@@ -59,7 +59,7 @@
 </section>
 <!--Lista de peliculas-->
 <section class="container space1">
-  <div class="row">
+  <div class="row" id="movie">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="video-space">
       <div class="container-video" >
@@ -93,7 +93,22 @@
 <!-- Js de bootstrap-->
 <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src=""></script>
-
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAeROLqslp1cXi__0KdRLQM04GaXWkMz28",
+    authDomain: "movie-station-78f4e.firebaseapp.com",
+    databaseURL: "https://movie-station-78f4e.firebaseio.com",
+    projectId: "movie-station-78f4e",
+    storageBucket: "movie-station-78f4e.appspot.com",
+    messagingSenderId: "662232913624"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="../js/login.js" ></script>
+<script type="text/javascript" src="../js/home.js" ></script>
+<script type="text/javascript" src="../js/movie.js" ></script>
 </body>
 </html>  
