@@ -44,7 +44,7 @@
 
 ### PROCESOS DE DISEÑO DE LA EXPERIENCIA
 -   Se analiza el fondo un tema que creemos podría ser viable, se llega a un acuerdo y se procede a entrevistar.
--   La experiencia de usuario es enriquecedora, se procede a realizar los diseños básicos solo papel y lápiz para dibujar los sketches y volver a 		revisarlo una o las veces que sea necesario hasta que el producto tome forma y usabilidad.
+-   La experiencia de usuario es enriquecedora, se procede a realizar los diseños básicos solo papel y lápiz para dibujar los sketches y volver a revisarlo una o las veces que sea necesario hasta que el producto tome forma y usabilidad.
 -   Volvemos a entrevistar de forma más detallada y así profundizar cual es el factor determinante que mejorara la experiencia de usuario.
 -   Se procede a diseñar los maquetados, cada una de las vistas desktop Tablet y Mobile.
 -   Luego se le adiciona funcionalidad, rapidez y simpleza, que sea entendible al usuario y su experiencia sea enriquecedora. Se realizaron las pruebas de funcionalidad.
@@ -97,7 +97,7 @@
 
 * Esta api, nos da acceso a las películas, data con la que se trabaja la aplicación Movie Station, y su funcionalidad de búsquedas de película.
 
-## VISTAS DE LA RED SOCIAL STATION-MOVIE
+## VISTAS STATION-MOVIE
 
 -   Vista inicial
     En esta se presenta el logo en una ventana splash con una duración de 3 segundos.
