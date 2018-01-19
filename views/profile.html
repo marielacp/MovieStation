@@ -8,126 +8,137 @@
     <title>Movie Station</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="../css/profile.css">
 </head>
 
 <body>
     <!-- Navbar/header -->
-  <div class="container-fluid">
-  <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
-  <div class="container letter-nav">
-    <div class="text-right txt-sm-nav">
-      <button type="submit" class="btn btn-primary btn-register">Register Now</button>
-       <a class="sign-out">Sign In</a>      
-    </div>    
-    <div class="navbar-header ">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain" >
-      <span class="glyphicon glyphicon-chevron-right"></span>        
-      </button>
-      <img class="img-reponsive nav-logo text-center" src="../assets/img/logo4.png" alt="">
-     <!-- <a class="navbar-brand" href="#" class="title-nav">STATION MOVIE</a>-->
+    <div class="container-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+            <div class="container letter-nav">
+                <div class="text-right txt-sm-nav">
+                    <button type="submit" class="btn btn-primary btn-register">Register Now</button>
+                    <a class="sign-out">Sign In</a>
+                </div>
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button>
+                    <img class="img-reponsive nav-logo text-center" src="../assets/img/logo4.png" alt="">
+                    <!-- <a class="navbar-brand" href="#" class="title-nav">STATION MOVIE</a>-->
+                </div>
+                <div class="collapse navbar-collapse " id="navMain">
+                    <ul class="nav navbar-nav pull-right txt-sm-nav">
+                        <li class="active" title="Home">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Premier">Premier</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Generos">Genre</a>
+                        </li>
+                        <li>
+                            <a href="#" title="ContactUs">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#" title="ContactUs">Foro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="collapse navbar-collapse " id="navMain" >
-      <ul class="nav navbar-nav pull-right txt-sm-nav">
-        <li class="active" title="Home"><a href="#">Home</a></li>
-        <li><a href="#" title="Premier">Premier</a></li>
-        <li><a href="#" title="Generos">Genre</a></li> 
-        <li><a href="#" title="ContactUs">Contact Us</a></li>
-         <li><a href="#" title="ContactUs">Foro</a></li>  
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
     <!-- profile-information -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12 form-inline">
-                <p class="user-name text-left"> Nombre De Usuario </p>
-                <img src="../assets/img/user.png" class="user pull-right" alt="user">
+                <p class="user-name text-left" id="name-user"> Nombre De Usuario </p>
+                <a href="../views/profile.html"> <img id="img-user" src="../assets/img/user.png" class="user pull-right" alt="user"></a>
             </div>
         </div>
     </div>
     <hr>
-<!-- Buscador -->
+    <!-- Buscador -->
     <div class="jumbotron">
-            <h3 class="text-center">Search For Any Movie</h3>
-            <form id="searchForm">
-                <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
-            </form>
-        </div>
-    <!--recomendaciones-->
-    <form>
-        <div class="container">
-        <div class="form-group text-center">
-            <label for="" >Movie</label>
-            <input type="" class="form-control text-center" id="" placeholder="Type your movie recomendation">
-        </div>
-        <div class="container">
-                <div class="form-group text-center">
-                    <label for="" >Reason</label>
-                    <input type="" class="form-control text-center" id="" placeholder="Reason it is your favorite">
-                </div>
-                <div class="container">
-                        <div class="form-group text-center">
-                            <label for="" >Soundtrack</label>
-                            <input type="" class="form-control text-center" id="" placeholder="Favorite Song">
-                        </div>
-        <button type="submit" class="btn btn-default button white center-block" id="recommend-button">Recommend!</button>
+        <h3 class="text-center">Search For Any Movie</h3>
+        <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+        </form>
     </div>
-    </form>
-<br>
-<!-- Fotos -->
-<div class="container">
-    <div class="row">
-        <div class="colums">
-            <div class="border-container">
+    <br>
+    <!-- Fotos -->
+    <div class="container">
+        <div class="row">
+            <div class="colums">
+                <div class="border-container">
 
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<footer class=" color-fondo" > 
-<!--iconos redes sociales-->
-   <div class="container-fluid">
-      <div class="row center-block ">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 dateImg">
-        <div>
-        <span class="btn-f"><a href=""> <i class="fa fa-facebook" aria-hidden="true"> </i></a></span>
-        <span class="btn-f"> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span>  
-        <span class="btn-f"> <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
-        <span class="btn-f"> <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a></span>
-        <span class="btn-f"> <a href=""><i class="fa fa-play" aria-hidden="true"></i></a></span>
+    <footer class="background">
+        <!--iconos redes sociales-->
+        <div class="container-fluid">
+            <div class="row center-block ">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 dateImg">
+                    <div>
+                        <span class="btn-f">
+                            <a href="">
+                                <i class="fa fa-facebook" aria-hidden="true"> </i>
+                            </a>
+                        </span>
+                        <span class="btn-f">
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </span>
+                        <span class="btn-f">
+                            <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </span>
+                        <span class="btn-f">
+                            <a href="">
+                                <i class="fa fa-apple" aria-hidden="true"></i>
+                            </a>
+                        </span>
+                        <span class="btn-f">
+                            <a href="">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="container-footer-date">
+                        <p class="text-center"> informesstationmovie@stationmovie.com</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
         </div>
-          <div class="container-footer-date" >
-            <p class="text-center"> informesstationmovie@stationmovie.com</p>
-            <hr>
-            </div>    
-          </div>      
-        </div>    
-      </div>
-</footer>
-<script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAeROLqslp1cXi__0KdRLQM04GaXWkMz28",
-    authDomain: "movie-station-78f4e.firebaseapp.com",
-    databaseURL: "https://movie-station-78f4e.firebaseio.com",
-    projectId: "movie-station-78f4e",
-    storageBucket: "movie-station-78f4e.appspot.com",
-    messagingSenderId: "662232913624"
-  };
-  firebase.initializeApp(config);
-</script>
-<script type="text/javascript" src="../js/login.js" ></script>
-<script type="text/javascript" src="../js/home.js" ></script>
-<script type="text/javascript" src="../js/movie.js" ></script>    <script src="../js/profile.js"></script>
+    </footer class="">
+    <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAeROLqslp1cXi__0KdRLQM04GaXWkMz28",
+            authDomain: "movie-station-78f4e.firebaseapp.com",
+            databaseURL: "https://movie-station-78f4e.firebaseio.com",
+            projectId: "movie-station-78f4e",
+            storageBucket: "movie-station-78f4e.appspot.com",
+            messagingSenderId: "662232913624"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="../js/login.js"></script>
+    <script type="text/javascript" src="../js/home.js"></script>
+    <script type="text/javascript" src="../js/movie.js"></script>
+    <script src="../js/profile.js"></script>
 </body>
 
 </html>
