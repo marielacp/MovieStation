@@ -10,7 +10,7 @@ $(document).ready(function() {
         var movieId = localStorage.getItem('codeNum');
         console.log(movieId);
       
-        axios.get('http://www.omdbapi.com?i=' + movieId + '&apikey=69504f73')
+        axios.get('https://www.omdbapi.com?i=' + movieId + '&apikey=69504f73')
           .then((response) => {
             console.log(response);
             let movie = response.data;
@@ -38,7 +38,7 @@ $(document).ready(function() {
                   <h3>Plot</h3>
                   ${movie.Plot}
                   <hr>
-                  <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
+                  <a href="https://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
                   <a href="home.html" class="btn btn-default">Go Back To Search</a>
                 </div>
               </div>

@@ -25,7 +25,7 @@ $(document).ready(function() {
   });
 
   function getMovies(searchText) {
-    axios.get('http://www.omdbapi.com?s=' + searchText + '&apikey=731e2f42')
+    axios.get('https://www.omdbapi.com?s=' + searchText + '&apikey=731e2f42')
       .then((response) =>{
         var movies = response.data.Search;
         var output = '';
@@ -154,7 +154,7 @@ $(document).ready(function() {
                 if (datos[listkeyidbms[j]].imdbID !== undefined) {
                   /* inicio con omdb api traer películas */
                      
-                  axios.get('http://www.omdbapi.com?i=' + datos[listkeyidbms[j]].imdbID + '&apikey=731e2f42')
+                  axios.get('https://www.omdbapi.com?i=' + datos[listkeyidbms[j]].imdbID + '&apikey=731e2f42')
                     .then((response) =>{
                       console.log(response); 
                       var movie = response.data;
@@ -170,7 +170,7 @@ $(document).ready(function() {
                       var poster = movie.Poster;
                       console.log(typeof poster);
                       var $ancor = $('<a target="_blank"></a>');
-                      $ancor.attr('href', 'http://www.imdb.com/title/' + movie.imdbID);
+                      $ancor.attr('href', 'https://www.imdb.com/title/' + movie.imdbID);
                       var $imgpost = $('<img class="thumbnail">');
                       listmoviesaved.append($ancor);
                       $ancor.append($imgpost);
