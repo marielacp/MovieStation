@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+}
+.contenedorImg{
+  width: 100%;
+}
+.contenedorImg:hover{
+  opacity:0.45 ;
+  color: transparent;
+}
+.contenedorDescripcion {   
+  color : #FFF;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top:0;
+  right:80px;
+  outline: 0.5px solid #000; 
+  background: rgba(0,0,0,0.5);
+  visibility: hidden;
+  transition:  top 0.5s;
+
+  }
+   
+   .muestraDescripcion{
+     top: 0 !important;
+   }
+   
+ .hidden{
+    visibility: hidden !important;
+  }
+  .visible{
+  visibility: visible !important;
+   } 
+   
+div#movies img {
+  width: 100%;
+}
+
+.clearfix.col.s12 {
+ margin-bottom: 5px;
+}
+
+.create-playlist.col.s12 {
+ position: relative;
+ left: 20%;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.modal-dialog.modal-sm {
+    width: 60%;
+}
+.create-playlist.col-lg-6 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10rem;
+}
+@media only screen and (min-width: 992px){
+   
+  .modal-dialog.modal-sm {
+      width: 30%;
+  }
+
+}
+
+button.key-list {
+    border-radius: 20px;
+    font-weight: 700;
+}
+span.datalist {
+    font-size: 16px;
+    margin-left: 1rem;
+}
+
+button.list-moviesved.modal-trigger.btn.btn-success {
+    margin-left: 2rem;
+}

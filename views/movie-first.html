@@ -1,20 +1,22 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../vendors/bootstrap/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">  
-    <link rel="stylesheet" href="../css/home.css">
-   
+  <meta charset="UTF-8">
+  <title>movie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="content-type" content="text/html;UTF-8">
+  <meta http-equiv="cache-control" content="cache">
+  <meta http-equiv="content-language" content="es">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap-theme.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/moviemain.css">
 </head>
+
 <body>
-                           
+ 
 <!--***** Navbar *********-->
   <div class="container-fluid">
     <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
@@ -45,21 +47,71 @@
     </div>
   </div>
 </div>
-<!--Seccion01-->
 <section class="space">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="jumbotron">
-          <h3 class="text-center">Search For Any Movie</h3><a href="movie-first.html">add list</a>
-          <form id="searchForm">
-            <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
-          </form>
+ <div class="container">
+	<div class="jumbotron">
+		<h3 class="text-center">Search for any Movie </h3>
+		<form id="searchForm">
+		 <input type="text" class="form-control" id="searchText" placeholder ="Search Movie" name="">
+		</form>
+	</div>
+</div>
+</section>
+<!-- inicio de modal list -->
+<div class="modal fade" id="modal-sm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">  
+          <div class=" col-lg-offset-2 col-lg-12 col-sm-6 col-xs-12 "> 
+                <div class="col-lg-12">            
+                <h4 class="form-label">
+                  Título de la lista 
+                 </h4>
+                 <span class="">Escribe:<span class=" "><input id="list-input" class="title-input" name="name-list" type="text" maxlength="150"></span></span>
+                </div>
+                 <div class="create-playlist col-lg-6 ">
+                 <button id="createlist" class="create-button btn btn-primary" type="submit">Crear</button>
+               </div>
+               <div>
+                <div id="listmovies" class="col-lg-10"></div> 
+              </div>
+          </div>     
         </div>
       </div>
     </div>
   </div>
-</section>
+</div>
+<!--fin de modal list -->
+
+<!-- inicio de modal guardar peliculas -->
+<div class="modal fade" id="modal-save" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-save">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">  
+          <div class=" col-lg-offset-2 col-lg-12 col-sm-6 col-xs-12 "> 
+                <div class="col-lg-12">            
+                <h4 class="form-label">
+                  lista de películas
+                 </h4>
+                </div>                 
+               <div>
+                <div id="listmoviesaved" class="col-lg-12"></div> 
+              </div>
+          </div>     
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin de modal guargar peliculas -->
+
+
+<div class="container">
+ <div id="movies" class="row"></div>	
+
+</div>
 <!--Lista de peliculas-->
 <section class="container space1">
   <div class="row" id="movies">
@@ -226,25 +278,30 @@
 </div>
 </div>
 </div>
-<!-- Js de bootstrap-->
-<script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-<script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../js/datamovie.js"></script>
+ <!-- Base de datos 
+ <script src='../js/dataVolunteer.js'></script>
+   archivos JS 
+  <script src="../js/appFotos.js"></script> 
+  <script src="../js/appChat.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyAeROLqslp1cXi__0KdRLQM04GaXWkMz28",
-    authDomain: "movie-station-78f4e.firebaseapp.com",
-    databaseURL: "https://movie-station-78f4e.firebaseio.com",
-    projectId: "movie-station-78f4e",
-    storageBucket: "movie-station-78f4e.appspot.com",
-    messagingSenderId: "662232913624"
+    apiKey: "AIzaSyC4YzfP_Naxc6U8hhhN9gy8kIFmo0ARNZc",
+    authDomain: "first-project-66342.firebaseapp.com",
+    databaseURL: "https://first-project-66342.firebaseio.com",
+    projectId: "first-project-66342",
+    storageBucket: "first-project-66342.appspot.com",
+    messagingSenderId: "526633369509"
   };
   firebase.initializeApp(config);
-</script>
-<script type="text/javascript" src="../js/login.js" ></script>
-<script type="text/javascript" src="../js/home.js" ></script>
-<script type="text/javascript" src="../js/movie.js" ></script>
+  </script>
+   
 </body>
-</html>  
+</html>
