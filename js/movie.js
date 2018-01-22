@@ -6,6 +6,19 @@ $(document).ready(function() {
       var displayName = user.displayName;
       var photoURL = user.photoURL;
       var uid = user.uid;
+      if (photoURL === null) {
+        $('#imgMovie').attr('src', '../assets/img/user.png');
+      } else {
+        $('#imgMovie').attr('src', photoURL);
+      };
+      $('#signOut-movie').text('Sign Out')
+      $('#signOut-movie').on('click', function(){
+        firebase.auth().signOut()
+        .then(function() {
+          $(location).attr('href', 'home.html');
+          $('#sign-out').text('Sign-In');
+        });
+      });
       function getMovie() {
         var movieId = localStorage.getItem('codeNum');
         console.log(movieId);
@@ -60,6 +73,7 @@ $(document).ready(function() {
                 }
               ;
               database.ref('personalMovie/' + user.uid).push(personalMovie);
+              $(location).attr('href','profile.html')
             });
           })
           .catch((err) => {
