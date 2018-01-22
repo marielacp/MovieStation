@@ -52,19 +52,19 @@
 ### Lista de SKETCHES.
 
 * SPLASH
-![Imagenes](assets/readme/splash.png) 
+![Imagenes](assets/readme/1.1.png) 
 
 * HOME
-![Imagenes](assets/readme/home.png) 
+![Imagenes](assets/readme/3.3.png) 
 
 * LOGIN
-![Imagenes](assets/readme/login.png) 
+![Imagenes](assets/readme/2.2.png) 
 
 * PROFILE
-![Imagenes](assets/readme/favorites.png)
+![Imagenes](assets/readme/6.6.png)
 
 * FORO
-![Imagenes](assets/readme/forum.png)
+![Imagenes](assets/readme/7.7.png)
 
 ### Herramientas de trabajo.
 *   Utilizamos framework Bootstrap 3.1
