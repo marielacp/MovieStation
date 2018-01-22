@@ -51,19 +51,19 @@
 
 ### Lista de SKETCHES.
 
-* SPLASH  
+* SPLASH:  
 ![Imagenes](assets/readme/1.1.png) 
 
-* HOME  
+* HOME:  
 ![Imagenes](assets/readme/3.3.png) 
 
-* LOGIN  
+* LOGIN:  
 ![Imagenes](assets/readme/2.2.png) 
 
-* PROFILE  
+* PROFILE:  
 ![Imagenes](assets/readme/6.6.png)
 
-* FORO  
+* FORO:  
 ![Imagenes](assets/readme/7.7.png)
 
 ### Herramientas de trabajo.
