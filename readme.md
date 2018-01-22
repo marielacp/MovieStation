@@ -5,21 +5,21 @@
 
 # NOMBRE DE PARTICIPANTES
 	
-*   Mariela Cerna Peralta: UX-UI
+*   Mariela Cerna Peralta: UX-UI  
+
     - Encargada del desarrollo de entrevistas y maquetación creación de logo y definición del color, recopilación de información sobre experiencias de usuario, anotaciones sobre sus requerimientos para mejorar su experiencia futura, se utilizó herramientas de fácil alcance como papel y lápiz para dibujar los sketches(diseño básico), 
 
-*   Franshesca Quezada: UX-UI. 
+*   Franshesca Quezada: UX-UI  
+
     - Encargada de maquetación, definición de color, tipografías y definición de nombre junto con el equipo de trabajo, además de recopilar información sobre experiencias de usuario, utilizó herramientas de fácil alcance como papel y lápiz para dibujar los sketches(diseño básico).
 
-*   Claudia Garibotto: UX-UI. 
+*   Claudia Garibotto: FRONT-END DEVELOPER  
+
     - Encargada de la funcionalidad del producto, además junto con el equipo de UX, UI, recopilar información sobre las experiencias de los usuarios, analizar y llegar a un punto medio base donde se desarrolla la idea.
 
-*   Yanina Mercado.
+*   Yanina Mercado: FRONT-END DEVELOPER  
+
     - Encargada de la funcionalidad del producto, además junto con el equipo de UX, UI, recopilar información sobre las experiencias de los usuarios, analizar y llegar a un punto medio base donde se desarrolla la idea.
-
-### CRONOGRAMA DE ESTUDIOS.
-![Imagenes](assets/img/cronograma.png) 
-
     
 ### METODOS DE LEVANTAMIENTO DE INFORMACION.
 *   Entrevista
@@ -97,7 +97,7 @@
 
 * Esta api, nos da acceso a las películas, data con la que se trabaja la aplicación Movie Station, y su funcionalidad de búsquedas de película.
 
-## VISTAS STATION-MOVIE
+## VISTAS: MOVIE STATION
 
 -   Vista inicial
     En esta se presenta el logo en una ventana splash con una duración de 3 segundos.
