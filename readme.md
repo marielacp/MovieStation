@@ -1,9 +1,14 @@
-# PROYECTO: MOVIE STATION
-# BAJO EL LEMA: Disfruta como en el cine...
+# MOVIE STATION
 
-![Imágenes](assets/img/logo4.png) 
+MovieStation, es una alternativa de entretenimiento, puedes buscar películas y guardarlas en tu perfil.
+**Nuestro lema: Disfruta como en el cine**
 
-# NOMBRE DE PARTICIPANTES
+![Movie Station](https://user-images.githubusercontent.com/32305619/36449609-4882efa0-1659-11e8-9cb4-b96d3a3e13af.png)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+## NOMBRE DE PARTICIPANTES
 	
 *   Mariela Cerna Peralta: UX-UI  
 
